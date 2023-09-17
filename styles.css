@@ -1,0 +1,31 @@
+
+.Vid {
+        
+    padding-top: 250px;
+    }
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+#gif-container {
+    position: absolute;
+    pointer-events: none;
+    animation: fadeIn 1s;
+}
+
+#gif-container img {
+    width: 300px; /* Increase the width to 400px */
+    height: auto;
+    filter: hue-rotate(270deg); /* Rotate the hue to make it purple */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
